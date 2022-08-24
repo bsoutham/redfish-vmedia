@@ -25,3 +25,15 @@ To setup nginx for serving an iso:
 
 After docker is running in one terminal and the mount/unmount files have the parameters modified
 you can simply run `mount.sh` to mount the ISO to the server, set boot from the ISO next boot and power on the server.
+
+A succssful run will look like:
+
+```
+Attempting Login to iLO at 192.168.86.50
+Found ISO IMAGE: http://192.168.86.202:8000/iso/esxi.ISO
+Virtual Media already mounted
+Mounted vMedia
+Powering On server ....
+```
+
+debug logging will be written to `log.log` where mount/unmount commands are run
