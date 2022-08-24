@@ -7,7 +7,7 @@ Modify these 3 values at the top of each file for your target server.
   ILO_USER=
   ILO_PASSWORD=
 ```
-for vmedia_mount.sh you also need to modify:
+for mount.sh you also need to modify:
 ```
     ISO_URL=
 ```
