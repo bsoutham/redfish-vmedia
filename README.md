@@ -2,19 +2,23 @@
 
 You need to modify the mount.sh and unmount.sh
 Modify these 3 values at the top of each file for your target server.
+```
   ILO_IP=
   ILO_USER=
   ILO_PASSWORD=
-
+```
 for vmedia_mount.sh you also need to modify:
+```
     ISO_URL=
+```
 
 Examples look like:
+```
   ILO_IP=192.168.1.2
   ILO_USER="administrator"
   ILO_PASSWORD="supersecret"
   ISO_URL="http://192.168.1.2:8000/iso/esxi.ISO"
-
+```
 
 ## nginx usage
 To setup nginx for serving an iso:
