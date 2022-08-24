@@ -1,0 +1,27 @@
+
+HTTP/1.1 201 Created
+Cache-Control: no-cache
+Content-type: application/json; charset=utf-8
+Date: Wed, 24 Aug 2022 04:35:26 GMT
+ETag: W/"F673BC46"
+Link: </redfish/v1/SessionService/Sessions/admin000000006305aa8ee24dd2f2/>; rel=self
+Location: https://192.168.86.50/redfish/v1/SessionService/Sessions/admin000000006305aa8ee24dd2f2/
+OData-Version: 4.0
+Transfer-Encoding: chunked
+X-Auth-Token: 0f7f5a0817ce1d390f153006d1811026
+X-Content-Type-Options: nosniff
+X-Frame-Options: sameorigin
+X-XSS-Protection: 1; mode=block
+
+0f7f5a0817ce1d390f153006d1811026
+
+HTTP/1.1 404 Not Found
+Server: nginx/1.23.1
+Date: Wed, 24 Aug 2022 05:35:27 GMT
+Content-Type: text/html
+Content-Length: 153
+Connection: keep-alive
+
+{"error":{"code":"iLO.0.10.ExtendedInfo","message":"See @Message.ExtendedInfo for more information.","@Message.ExtendedInfo":[{"MessageId":"Base.1.4.Success"}]}}
+{"error":{"code":"iLO.0.10.ExtendedInfo","message":"See @Message.ExtendedInfo for more information.","@Message.ExtendedInfo":[{"MessageId":"Base.1.4.Success"}]}}
+{"error":{"code":"iLO.0.10.ExtendedInfo","message":"See @Message.ExtendedInfo for more information.","@Message.ExtendedInfo":[{"MessageArgs":["Power is on"],"MessageId":"iLO.2.14.InvalidOperationForSystemState"}]}}
